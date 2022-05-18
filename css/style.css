@@ -195,13 +195,26 @@ footer{
 .footer-navbar{
     height: 100px;
     margin: 0 200px;
-    background-color: darkkhaki;
     display: flex;
+    align-items: center;
 }
 
 .footer-navbar > div{
     width: 50%;
-    height: 100px;
-    background-color: darkred;
-    border: 1px solid black;
+    min-height: 80px;
+    padding: 20px 10px;
+    color: white;
+}
+
+.socials{
+    text-align: right;
+}
+
+.socials i{
+    margin: 0 3px;
+}
+
+.socials h3{
+    padding-right: 5px;
+    font-size: 14px;
 }
