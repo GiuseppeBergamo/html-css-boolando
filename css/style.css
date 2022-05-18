@@ -27,6 +27,7 @@ ul li{
     height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 1;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.2);
     
 }
@@ -77,32 +78,61 @@ ul li{
     min-width: 700px;
     min-height: 200px;
     margin: 50px 200px;
-    background-color: darkgray;
     padding: 30px 0;
 }
 
 .row{
     min-height: 400px;
-    background-color: darkorange;
     display: flex;
+    margin: 20px -10px;
+}
+
+article{
+    width: calc(100% / 3);
+    min-height: 300px;
+    padding: 0 10px;
+    
+}
+
+/* Images */
+
+
+.image{
+    position: relative;
+    
 }
 
 .image img{
     width: 100%;
 }
 
-article{
-    width: calc(100% / 3);
-    min-height: 300px;
-    background-color: darkorchid;
-    border: 1px solid black;
-    
+.defaultimg-first:hover{
+    content: url(../img/1b.webp);
 }
 
-.image{
-    position: relative;
 
+.defaultimg-second:hover{
+    content: url(../img/2b.webp);
 }
+
+.defaultimg-third:hover{
+    content: url(../img/3b.webp);
+}
+
+.defaultimg-fourth:hover{
+    content: url(../img/4b.webp);
+}
+
+.defaultimg-fifth:hover{
+    content: url(../img/5b.webp);
+}
+
+.defaultimg-sixth:hover{
+    content: url(../img/6b.webp);
+}
+
+
+/* article elements */
 
 .overimage{
     position: absolute;
@@ -129,6 +159,10 @@ article{
     position: absolute;
     top: 10px;
     right: 0;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .brand-item .brand{
