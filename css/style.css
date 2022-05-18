@@ -202,8 +202,14 @@ footer{
 .footer-navbar > div{
     width: 50%;
     min-height: 80px;
-    padding: 20px 10px;
+    padding: 20px 0;
     color: white;
+}
+
+
+
+.info a{
+    margin-right: 5px;
 }
 
 .socials{
